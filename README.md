@@ -8,7 +8,7 @@ Aqui estará um repositório para te ajudar com ideias e introduzir mais a fundo
 O código implementa um jogo 2048 com três agentes de inteligência artificial (IA):
 
 Monte Carlo: Este agente utiliza o método de Monte Carlo para realizar simulações e escolher a jogada com maior probabilidade de levar à vitória.
-  Uma explicação mais simples seria de que ele simula jogos aleatorios e escolhe o proximo movimento em que sua média de jogadas na partida foi maior (o movimento que ele sobreviveu por mais tempo)
+  Uma explicação mais simples seria de que ele simula jogos aleatórios e escolhe o proximo movimento em que sua média de jogadas na partida foi maior (o movimento que ele sobreviveu por mais tempo)
 
 Circular Brain: Este agente utiliza um algoritmo circular para explorar diferentes jogadas e escolher a que maximize o número de espaços vazios no tabuleiro.
   Muito boa para Lidar com a Aleatoriedade do Game, tem um raciocinio a um prazo relativamente curto porém ela sempre planeja como aumentar a quantidade de zeros(espaços vazios) no tabuleiro sendo bem agressiva.
