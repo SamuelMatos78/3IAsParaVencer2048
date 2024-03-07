@@ -4,7 +4,7 @@ matTeste: Matriz de teste para simulações.
 matrizDeDesenvolvimento: Matriz usada para desenvolver as simulações.
 range: Contador de movimentos possíveis.
 ```c
-Copy code
+
 int MonteCarlo(int tab[tam][tam]){
     int matTeste[tam][tam];
     int matrizDeDesenvolvimento[tam][tam];
@@ -15,7 +15,7 @@ Cálculo do Range:
 Verifica quantos movimentos são possíveis a partir do estado atual do tabuleiro.
 Calcula o range como a força do movimento dividida pelo número de movimentos possíveis.
 ```c
-Copy code
+
     for(int i = 1; i < 5; i++){
         if(movimentos(matTeste,i))range++;
         copy(tab,matTeste);
@@ -30,7 +30,7 @@ Atualiza mediaMoves com a média de movimentos para essa direção.
 
 ```c
 
-Copy code
+
     double mediaMoves[4];
     for(int i = 0; i < 4; i++){
         mediaMoves[i] = 0;
@@ -92,7 +92,7 @@ Copy code
 Comparação das médias de movimentos para determinar a direção com melhor desempenho.
 Retorna o número da direção que resulta no melhor lance.
 ```c
-Copy code
+
     int MelhorLance = 0;
     for (int i = 0; i < 4; i++)
     {
@@ -107,3 +107,4 @@ Copy code
 
 }
 ```
+Este README considera que todas as outras funções foram implementadas corretamente, além de realizar a jogada de forma Automática, também se comunica com a Variável global e retorna o Número da jogada para a MacroIA
